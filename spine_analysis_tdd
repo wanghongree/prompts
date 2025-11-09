@@ -1,1 +1,13 @@
 
+Please think hard and come up with suggestions for a better logging system. I hope to have the following 
+ - Each service has its own logs and for each service there is a folder/file containing the all the logs from the service. 
+ - The log files growing bigger and bigger with time; please suggest if that would cause a problem, if so what's solution.
+ - It works for both docker and native enviroment (sevice are host in linux). I can view the logs form outside the docker enviroment. 
+
+Let's start with backend service. How many types of logs does it have? should we seperate them or put them together?
+
+Great plan. Please make sure the logging system contains the following features. If not update your plan.
+1. the logs folder should be inside the backend folder. Please raise if that's a bad practice.
+2. Make sure there is a way to remove older logs a period ago (eg: logs 1 year ago) routinely. The period should configurable. The configure is in the image_config.json in the bacnend folder. Restart of a service natively or in docker should not remove logs. 
+
+

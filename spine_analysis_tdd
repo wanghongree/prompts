@@ -11,3 +11,11 @@ Great plan. Please make sure the logging system contains the following features.
 2. Make sure there is a way to remove older logs a period ago (eg: logs 1 year ago) routinely. The period should configurable. The configure is in the image_config.json in the bacnend folder. Restart of a service natively or in docker should not remove logs. 
 
 
+Q1
+save in backend/logs/
+Q2
+good plan
+Q3
+looks good
+Q4
+Correct

@@ -19,3 +19,14 @@ Q3
 looks good
 Q4
 Correct
+
+
+Please read the code about logging system in backend for example @backend/logging_setup.py @backend/logging_setup.py and other relavent code carefull,  think hard and help me with the following request. 
+
+Please also read code for model service eg: @model_service/model_service.py and @model_service/model_service.py
+
+You may find that I have an existing logging system for backend, which works great. Now I hope to create a similar one with similar ideas for model_service service. 
+- It works for both docker and native enviroment (sevice are host in linux). I can view the logs form outside the docker enviroment. 
+- logging should cover the service status (eg: @model_service/main.py and @model_service/model_service.py) and general model running @model_service/analyse.py status.
+
+Please think hard and come up with a plan
